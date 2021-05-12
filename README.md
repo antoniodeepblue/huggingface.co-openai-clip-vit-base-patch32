@@ -1,5 +1,7 @@
 # Model Card: CLIP
 
+Disclaimer: The model card is taken and modified from the official CLIP repository, it can found [here](https://github.com/openai/CLIP/blob/main/model-card.md).
+
 ## Model Details
 
 The CLIP model was developed by researchers at OpenAI to learn about what contributes to robustness in computer vision tasks. The model was also developed to test the ability of models to generalize to arbitrary image classification tasks in a zero-shot manner. It was not developed for general model deployment - to deploy models like CLIP, researchers will first need to carefully study their capabilities in relation to the specific context they’re being deployed within.
