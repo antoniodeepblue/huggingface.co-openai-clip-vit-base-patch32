@@ -1,6 +1,7 @@
 ---
 tags:
 - vision
+---
 
 # Model Card: CLIP
 
