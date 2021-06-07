@@ -1,3 +1,7 @@
+---
+tags:
+- vision
+
 # Model Card: CLIP
 
 Disclaimer: The model card is taken and modified from the official CLIP repository, it can be found [here](https://github.com/openai/CLIP/blob/main/model-card.md).
