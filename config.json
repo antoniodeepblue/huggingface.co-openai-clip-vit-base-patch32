@@ -1,8 +1,10 @@
 {
+  "_name_or_path": "openai/clip-vit-base-patch32",
   "architectures": [
     "CLIPModel"
   ],
   "initializer_factor": 1.0,
+  "logit_scale_init_value": 2.6592,
   "model_type": "clip",
   "projection_dim": 512,
   "text_config": {
@@ -13,6 +15,7 @@
     "bad_words_ids": null,
     "bos_token_id": 0,
     "chunk_size_feed_forward": 0,
+    "cross_attention_hidden_size": null,
     "decoder_start_token_id": null,
     "diversity_penalty": 0.0,
     "do_sample": false,
@@ -23,7 +26,6 @@
     "finetuning_task": null,
     "forced_bos_token_id": null,
     "forced_eos_token_id": null,
-    "gradient_checkpointing": false,
     "hidden_act": "quick_gelu",
     "hidden_size": 512,
     "id2label": {
@@ -70,8 +72,9 @@
     "tokenizer_class": null,
     "top_k": 50,
     "top_p": 1.0,
+    "torch_dtype": null,
     "torchscript": false,
-    "transformers_version": "4.7.0.dev0",
+    "transformers_version": "4.16.0.dev0",
     "use_bfloat16": false,
     "vocab_size": 49408
   },
@@ -85,6 +88,7 @@
     "bad_words_ids": null,
     "bos_token_id": null,
     "chunk_size_feed_forward": 0,
+    "cross_attention_hidden_size": null,
     "decoder_start_token_id": null,
     "diversity_penalty": 0.0,
     "do_sample": false,
@@ -95,7 +99,6 @@
     "finetuning_task": null,
     "forced_bos_token_id": null,
     "forced_eos_token_id": null,
-    "gradient_checkpointing": false,
     "hidden_act": "quick_gelu",
     "hidden_size": 768,
     "id2label": {
@@ -143,8 +146,9 @@
     "tokenizer_class": null,
     "top_k": 50,
     "top_p": 1.0,
+    "torch_dtype": null,
     "torchscript": false,
-    "transformers_version": "4.7.0.dev0",
+    "transformers_version": "4.16.0.dev0",
     "use_bfloat16": false
   },
   "vision_config_dict": null
